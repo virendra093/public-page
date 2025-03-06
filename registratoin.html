@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="css/registration.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>Registration Form</h2>
+        <form id="registrationForm">
+            
+            <!-- <label for="role">Register As:</label>
+            <select id="role">
+                <option value="">Select</option>
+                <option value="Student">Student</option>
+                <option value="Investor">Investor</option>
+                <option value="Entrepreneur">Entrepreneur</option>
+            </select> -->
+            <span class="error" id="roleError"></span>
+
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" placeholder="Enter your full name">
+            <span class="error" id="nameError"></span>
+
+            <label for="mobile">Mobile Number:</label>
+            <input type="text" id="mobile" placeholder="Enter 10-digit mobile number">
+            <span class="error" id="mobileError"></span>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="Enter your email">
+            <span class="error" id="emailError"></span>
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob">
+            <span class="error" id="dobError"></span>
+
+            <label for="address">Address:</label>
+            <textarea id="address" placeholder="Enter your address"></textarea>
+            <span class="error" id="addressError"></span>
+
+            <button type="submit">Register</button>
+        </form>
+        <!-- <button href="https://whatsapp.com/channel/0029Vaa0IJl2kNFlk6oyH82f" class="btn btn-outline-white-reverse me-4">Join Us On Whatsapp</button> -->
+        <div>
+            <button  class="btn btn-outline-white-reverse me-4"><a class="anchor-tag" href="https://whatsapp.com/channel/0029Vaa0IJl2kNFlk6oyH82f">Join Us On Whatsapp</a></button>
+        </div>
+    </div>
+
+    <script src="js/registration.js"></script>
+    <script src="js/navbar.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/counter.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/tiny-slider.js"></script>
+    <script src="js/flatpickr.min.js"></script>
+    <script src="js/glightbox.min.js"></script>
+</body>
+</html>
